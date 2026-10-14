@@ -29,8 +29,7 @@ namespace WcfServicePA2
                                  int stock, int categoria, string urlImagen);
 
         [OperationContract]
-        int EliminarProductoSP(int id);
-
+        string EliminarProductoSP(int id);
 
     }
 }
